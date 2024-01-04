@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(cover.png);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.logo {
+    width: 35%;
+    background-color: #FFFFFF;
+    border-radius: 100px;
+    border: 5px solid #F00;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+#btn-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#nature {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3%;
+}
+
+#btn-nature {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    border: 5px solid #229B4B;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.icon {
+    width: 70%;
+}
+
+.nature {
+    color: #229B4B;
+    text-align: center;
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
+    margin-top: -10%;
+}
+
+#wind {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 250px;
+}
+
+#btn-wind {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    border: 5px solid #17ABEB;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.wind {
+    color: #17ABEB;
+    text-align: center;
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
+    margin-top: -10%;
+}
+
+#beach {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -150px;
+}
+
+#btn-beach {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    border: 5px solid #FF914C;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.beach {
+    color: #FF914C;
+    text-align: center;
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
+    margin-top: -10%;
+}
+
+#rain {
+    display: flex;
+    margin-top: 80px;
+}
+
+#btn-rain {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    border: 5px solid #004AAD;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.rain {
+    color: #004AAD;
+    text-align: center;
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
+    margin-top: -10%;
+}
+
+
+
+
+@media all and (max-width: 900px) { 
+    .logo {
+        width: 70%;
+    }
+}
+
+
+@media all and (max-width: 520px) { 
+    .logo {
+        width: 70%;
+    }
+
+    #nature {
+        margin-top: 50px;
+    }
+
+    
+    #btn-nature {
+        width: 250px;
+        height: 250px;
+    }
+
+    #wind {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 280px;
+        margin-left: -100px;
+    }
+    
+    #btn-wind {
+        width: 250px;
+        height: 250px;
+    }
+    
+    #beach {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 0px;
+
+    }
+    
+    #btn-beach {
+        width: 250px;
+        height: 250px;
+    }
+    
+    #rain {
+        display: flex;
+        margin-top: 230px;
+        margin-left: -100px;
+    }
+    
+    #btn-rain {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+
+
