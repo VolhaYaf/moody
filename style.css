@@ -142,11 +142,12 @@ body {
 
 
 
-@media all and (max-width: 900px) { 
+@media all and (max-width: 900px) {   
     .logo {
         width: 70%;
     }
 }
+
 
 
 @media all and (max-width: 520px) { 
@@ -199,6 +200,4 @@ body {
         height: 250px;
     }
 }
-
-
 
